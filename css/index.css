@@ -1,0 +1,133 @@
+/* Box Model Example*/
+.box-model{
+    width:200px;
+    height: 100px;
+    padding: 10px;
+    margin:20px;
+    border:1px solid black;
+    
+}
+
+/*Background Example*/
+.background{
+    width:300px;
+    height:200px;
+    background-color:#f0f0f0;
+    background-image:url('image.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+/* Text Styling Example*/
+.text-styling{
+    color:#333;
+    font-size:18px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+   
+}
+
+/* Display and Layout Example */
+.inline-box{
+    display:inlin-block;
+    width:100px;
+    height:100px;
+    background-color:lightblue;
+
+}
+.positioned-box{
+    position: absolute;
+    top:50px;
+    left:100px;
+    width:200px;
+    height:100px;
+    background-color:yellow;
+
+}
+
+/* Flexbox Layout Example */
+.flexbox-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:100px;
+    backgraound-color:lightgray;
+    
+}
+/* Grid Layout EXample */
+.grid-container{
+    display:grid;
+    grid-template-columns:1fr 1fr fr;
+    grid-gap:10px;
+
+
+}
+.grid-container div{
+    background-color:lightblue;
+
+}
+/* Visibility and overflow EXample */
+.hidden-box{
+    visibility:hidden;
+
+}
+.overflow-box{
+    width:100px;
+    height:100px;
+    background-color:lightblue;
+    overflow:auto;
+
+}
+/* Box Shadow Example */
+
+.shadow-box{
+    width: 200px;
+    height: 100px;
+    background-color:white;
+    box-shadow:0px 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+/* Border Radius Example */
+
+.rounded-box{
+    width: 100px;
+    heigth: 100px;
+    background-color: lightblue;
+    border-radius: 50px;
+
+}
+/* Transition and Animation Example*/
+
+.transition-box{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    transition: background-color 0.5s;
+    
+
+}
+.transiton-box:hover{
+    background-color:lightcoral;
+
+
+}
+/* Animation EXample*/
+.animated-box{
+    width:100px;
+    height:100px;
+    background-color: lightblue;
+    animation: slide-in 2s ease;
+
+}
+
+@keyframes slide-in{
+    from{
+        transform: translateX(-100%)
+
+    }
+    to{
+        transform: translateX(0);
+    }
+}
